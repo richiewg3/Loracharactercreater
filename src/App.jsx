@@ -237,7 +237,9 @@ const App = () => {
                 <Info size={16} /> Quick Tips
               </div>
               <ul className="text-xs text-slate-400 space-y-2 list-disc pl-4">
-                <li>Paste prompts in "1) [Text]" format.</li>
+                <li>
+                  Paste prompts in <span className="font-mono">&quot;1) [Text]&quot;</span> format.
+                </li>
                 <li>Edits will replace common keywords in the original prompt.</li>
                 <li>Captions are generated automatically based on your overrides.</li>
               </ul>
